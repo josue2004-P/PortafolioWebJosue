@@ -45,7 +45,9 @@ html {
 #contact,
 #footer,
 #works,
-#hero1 {
+#hero1,
+#testimonios,
+#testimonios1 {
   background: #141e30; /* fallback for old browsers */
   background: -webkit-linear-gradient(
     to left,

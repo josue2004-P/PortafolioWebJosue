@@ -1,20 +1,35 @@
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Typewriter } from "react-simple-typewriter";
+import { useState } from "react";
 
 export default function Hero() {
+  const [isCopied, setIsCopied] = useState(false);
+  const text = "josuepe03@hotmail.com";
+
+  const handleCopy = async () => {
+    try {
+      await navigator.clipboard.writeText(text);
+      setIsCopied(true);
+      setTimeout(() => setIsCopied(false), 1000);
+    } catch (err) {
+      console.error("Error al copiar: ", err);
+    }
+  };
+
   return (
     <>
       <div
         id="hero"
-        className=" z-10  h-screen w-full relative  top-0 flex p-10 lg:pl-[4.5rem] justify-center "
+        className=" relative  top-0 z-10 flex  h-screen w-full justify-center p-10 lg:pl-[4.5rem] "
       >
-        <div className="grid lg:grid-cols-1 w-full">
-          <div className="text-texto flex flex-col lg:mb-32 justify-center xl:pl-6 lg:pl-32">
+        <div className="grid w-full lg:grid-cols-1">
+          <div className="flex flex-col justify-center text-texto lg:mb-32 lg:pl-32 xl:pl-6">
             <div>
-              <h1 className="text-6xl md:text-8xl  xl:text-8xl font-bold">
+              <h1 className="text-6xl font-bold  md:text-8xl xl:text-8xl">
                 Hi,
                 <span className="block lg:flex ">
                   I'm
-                  <span className="text-titulo ml-2">
+                  <span className="ml-2 text-titulo">
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
                       words={["Josue"]}
@@ -28,49 +43,63 @@ export default function Hero() {
                 <span>web developer.</span>
               </h1>
             </div>
-            <div className="mt-2 lg:mt-5 mb-5 lg:mb-10">
-              <p className="text-sm lg:text-md   font-medium">
+            <div className="mb-5 mt-2 lg:mb-10 lg:mt-5">
+              <p className="lg:text-md text-sm   font-medium">
                 Frontend <span className="mx-2"></span> /
                 <span className="mx-2">Backend</span>
                 <span className="mx-2">/</span> Web Developer
               </p>
             </div>
             <div>
-              <button className="relative inline-flex items-center justify-center p-0.5 mb-2 me-2 overflow-hidden text-sm font-medium text-gray-100  group bg-gradient-to-br from-[#6793c9] to-[#325c97] group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-[#243856]  group-hover:bg-opacity-0">
+              <AnchorLink
+                href="#contact"
+                className="group relative mb-2 me-2 inline-flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-[#6793c9] to-[#325c97]  p-0.5 text-sm font-medium text-gray-100 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 group-hover:from-purple-600 group-hover:to-blue-500 "
+              >
+                <span className="relative rounded-lg bg-[#243856] px-5 py-2.5 transition-all duration-75 ease-in  group-hover:bg-opacity-0">
                   Contact Me
                 </span>
-              </button>
+              </AnchorLink>
             </div>
           </div>
         </div>
 
         <div
-          className="absolute bottom-10 lg:right-[6rem] rounded-md px-6  py-6 w-[20rem] flex justify-center"
+          className="absolute bottom-10 flex w-[20rem] justify-center  rounded-md px-6 py-6 lg:right-[6rem]"
           id="hero1"
         >
           <div className="grid grid-cols-1 gap-4">
-            <div className=" flex items-center  w-full">
-              <div className="w-full rounded-l-xl relative inline-flex items-center justify-center p-0.5  overflow-hidden text-sm font-medium text-gray-100  group bg-gradient-to-br from-[#6793c9] to-[#325c97]  ">
-                <span className="w-full relative rounded-l-lg px-5 py-2.5 transition-all ease-in duration-75 bg-[#243856]  ">
+            <div className=" flex w-full  items-center">
+              <div className="group relative inline-flex w-full items-center justify-center overflow-hidden  rounded-l-xl bg-gradient-to-br from-[#6793c9] to-[#325c97]  p-0.5 text-sm font-medium text-gray-100  ">
+                <span className="relative w-full rounded-l-lg bg-[#243856] px-5 py-2.5 transition-all duration-75 ease-in  ">
                   josuepe03@hotmail.com
                 </span>
               </div>
               <div>
-                <button className="w-full rounded-r-xl relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium text-gray-100  group bg-gradient-to-br from-[#6793c9] to-[#325c97] group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                  <span className="w-full relative rounded-r-lg px-5 py-2.5 transition-all ease-in duration-75 bg-[#243856]  group-hover:bg-opacity-0">
-                    <i className="fa-solid fa-copy"></i>
+                <button
+                  onClick={handleCopy}
+                  className="group relative me-2 inline-flex w-full items-center justify-center overflow-hidden rounded-r-xl bg-gradient-to-br from-[#6793c9] to-[#325c97]  p-0.5 text-sm font-medium text-gray-100 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 group-hover:from-purple-600 group-hover:to-blue-500 "
+                >
+                  <span className="relative w-full rounded-r-lg px-5 py-2.5 transition-all duration-75 ease-in group-hover:bg-opacity-0">
+                    {isCopied ? (
+                      <i className="fa-solid fa-check"></i>
+                    ) : (
+                      <i className="fa-solid fa-copy"></i>
+                    )}
                   </span>
                 </button>
               </div>
             </div>
             <div className="w-full">
-              <button className="w-full rounded-xl relative inline-flex items-center justify-center p-0.5 me-2 overflow-hidden text-sm font-medium text-gray-100  group bg-gradient-to-br from-[#6793c9] to-[#325c97] group-hover:from-purple-600 group-hover:to-blue-500 hover:text-white focus:ring-4 focus:outline-none focus:ring-blue-300 ">
-                <span className="w-full relative rounded-lg px-5 py-2.5 transition-all ease-in duration-75 bg-[#243856]  group-hover:bg-opacity-0">
+              <a
+                href="/cv/cv.pdf"
+                download="cv.pdf"
+                className="group relative me-2 inline-flex w-full items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-[#6793c9] to-[#325c97] p-0.5  text-center text-sm font-medium text-gray-100 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 group-hover:from-purple-600 group-hover:to-blue-500 "
+              >
+                <span className="relative w-full rounded-lg bg-[#243856] px-5 py-2.5 transition-all duration-75 ease-in  group-hover:bg-opacity-0">
                   <span>DESCARGA CV</span>
-                  <i className="ml-3 fa-solid fa-download"></i>
+                  <i className="fa-solid fa-download ml-3"></i>
                 </span>
-              </button>
+              </a>
             </div>
           </div>
         </div>

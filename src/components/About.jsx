@@ -4,16 +4,16 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative z-10 bg-[#2E3532] lg:h-screen text-texto  flex justify-center"
+      className="relative z-10 flex justify-center bg-[#2E3532]  text-texto lg:h-screen"
     >
-      <div className="grid lg:grid-cols-2 w-[80%] my-20 lg:my-[10rem]">
+      <div className="my-20 grid w-[80%] lg:my-[10rem] lg:grid-cols-2">
         <div className="">
           <div className="flex flex-col items-center justify-center">
-            <h1 className="text-4xl md:text-5xl font-bold">
+            <h1 className="text-4xl font-bold md:text-5xl">
               <span className="text-titulo">{titulo}</span>
             </h1>
             <div>
-              <p className="mt-14 md:text-xl font-medium ">
+              <p className="mt-14 font-medium md:text-xl ">
                 Yo soy Josue Perez Eulogio, un desarrollador web enfocado en el
                 Front End con un año de experiencia en tecnologías como React,
                 HTML, CSS y JavaScript.
@@ -31,33 +31,33 @@ export default function About() {
             </div>
           </div>
           <div>
-            <h1 className="text-2xl font-bold mt-10">
+            <h1 className="mt-10 text-2xl font-bold">
               <span className="text-titulo">Formacion:</span>
-              <p className=" text-xl flex items-center">
+              <p className=" flex items-center text-xl">
                 Lic. Sistemas Computacionales (Proceso)
-                <i className="hidden sm:flex fa-solid fa-laptop-code ml-2"></i>
+                <i className="fa-solid fa-laptop-code ml-2 hidden sm:flex"></i>
               </p>
             </h1>
           </div>
         </div>
 
-        <div className="hidden lg:flex justify-center  lg:items-center ml-3 lg:ml-10">
+        <div className="pl-20 hidden justify-center  lg:ml-10 lg:flex lg:items-center">
           <div className="max-[450px]:flex max-[450px]:justify-end lg:w-[560px]">
-            <div className="lg:mt-0 lg:col-span-6 max-[450px]:pr-10 max-[450px]:mt-10 lg:flex max-[450px]:justify-self-end">
+            <div className="max-[450px]:mt-10 max-[450px]:justify-self-end max-[450px]:pr-10 lg:col-span-6 lg:mt-0 lg:flex">
               <div className="home__img relative">
-                <div className="w-16 h-16 rounded-full bg-[#6793c9] absolute top-14 -right-2 xl:top-14 xl:right-4 flex justify-center items-center">
-                  <i className="font-semibold text-4xl text-[#2E3532] fa-brands fa-react"></i>
+                <div className="absolute -right-2 top-14 flex h-16 w-16 items-center justify-center rounded-full bg-[#6793c9] xl:right-4 xl:top-14">
+                  <i className="fa-brands fa-react text-4xl font-semibold text-[#2E3532]"></i>
                 </div>
 
-                <div className="w-16 h-16 rounded-full bg-[#6793c9] absolute bottom-0 right-24 xl:bottom-0 xl:right-36 flex justify-center items-center">
-                  <i className="fa-brands fa-html5 font-semibold text-4xl text-[#2E3532] "></i>
+                <div className="absolute bottom-0 right-24 flex h-16 w-16 items-center justify-center rounded-full bg-[#6793c9] xl:bottom-0 xl:right-36">
+                  <i className="fa-brands fa-html5 text-4xl font-semibold text-[#2E3532] "></i>
                 </div>
 
-                <div className="w-16 h-16 rounded-full bg-[#6793c9] absolute lg:bottom-10 lg:left-9 xl:bottom-14 xl:left-20 flex justify-center items-center">
-                  <i className="fa-brands fa-css3-alt font-semibold text-4xl text-[#2E3532]"></i>
+                <div className="absolute flex h-16 w-16 items-center justify-center rounded-full bg-[#6793c9] lg:bottom-10 lg:left-9 xl:bottom-14 xl:left-20">
+                  <i className="fa-brands fa-css3-alt text-4xl font-semibold text-[#2E3532]"></i>
                 </div>
 
-                <div className="w-16 h-16 rounded-full bg-[#6793c9] absolute lg:top-12 xl:top-10 xl:left-20 flex justify-center items-center">
+                <div className="absolute flex h-16 w-16 items-center justify-center rounded-full bg-[#6793c9] lg:top-12 xl:left-20 xl:top-10">
                   <i className="fa-brands fa-js  text-4xl text-[#2E3532]"></i>
                 </div>
 
