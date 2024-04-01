@@ -1,6 +1,7 @@
 import {
   IconBrandGithubFilled,
   IconBrandLinkedin,
+  IconBrandWhatsapp,
   IconPhone,
 } from "@tabler/icons-react";
 import { IconMail } from "@tabler/icons-react";
@@ -16,30 +17,46 @@ export default function Contact() {
               className="-mt-[100px] block rounded-lg px-6 py-12 shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] backdrop-blur-[30px] md:px-12 md:py-16"
               id="testimonios1"
             >
-              <div className=" grid gap-x-6 md:grid-cols-2 lg:grid-cols-4">
+              <div className=" grid gap-x-6 md:grid-cols-2 lg:grid-cols-5">
                 <div className="mx-auto mb-12 text-center lg:mb-0">
                   <div className="flex justify-center">
                     <IconMail className="mb-4 text-titulo" size={35} />
                   </div>
-                  <h6 className="font-medium text-texto">josuepe03@hotmail.com</h6>
+                  <h6 className="font-medium text-texto">
+                    josueperezeulogio3@gmail.com
+                  </h6>
                 </div>
                 <div className="mx-auto mb-12 text-center lg:mb-0">
                   <div className="flex justify-center">
                     <IconPhone className="mb-4 text-titulo " size={35} />
                   </div>
-                  <h6 className="font-medium text-texto">284 - 102 - 2581</h6>
+                  <h6 className="font-medium text-texto">294 - 128 - 1586</h6>
+                </div>
+                <div className="mx-auto mb-12 text-center lg:mb-0">
+                  <div className="flex justify-center">
+                    <IconBrandWhatsapp className="mb-4 text-titulo " size={35} />
+                  </div>
+                  <h6 className="font-medium text-texto">294 - 128 - 1586</h6>
                 </div>
                 <div className="mx-auto mb-6 text-center md:mb-0">
                   <div className="flex justify-center">
-                    <IconBrandLinkedin className="mb-4 text-titulo" size={35}/>
+                    <IconBrandLinkedin className="mb-4 text-titulo" size={35} />
                   </div>
                   <h6 className="font-medium text-texto">Josue Perez</h6>
                 </div>
                 <div className="mx-auto text-center">
                   <div className="flex justify-center">
-                    <IconBrandGithubFilled className="mb-4 text-texto" size={35}/>
+                    <IconBrandGithubFilled
+                      className="mb-4 text-texto"
+                      size={35}
+                    />
                   </div>
-                  <h6 className="font-medium text-texto">josue2004-P</h6>
+                  <a
+                    href="https://github.com/josue2004-P"
+                    className="font-medium text-texto"
+                  >
+                    josue2004-P
+                  </a>
                 </div>
               </div>
             </div>

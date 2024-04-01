@@ -1,12 +1,12 @@
 export default function About() {
-  const titulo = "<About Me/>";
+  const titulo = "<¿Quien soy?/>";
 
   return (
     <section
       id="about"
       className="relative z-10 flex justify-center bg-[#2E3532]  text-texto lg:h-screen"
     >
-      <div className="my-20 grid w-[80%] lg:my-[10rem] lg:grid-cols-2">
+      <div className="my-20 grid w-[80%] lg:mt-[4rem] lg:grid-cols-2">
         <div className="">
           <div className="flex flex-col items-center justify-center">
             <h1 className="text-4xl font-bold md:text-5xl">
@@ -14,7 +14,7 @@ export default function About() {
             </h1>
             <div>
               <p className="mt-14 font-medium md:text-xl ">
-                Yo soy Josue Perez Eulogio, un desarrollador web enfocado en el
+                Soy Josue Perez Eulogio, un desarrollador web enfocado en el
                 Front End con un año de experiencia en tecnologías como React,
                 HTML, CSS y JavaScript.
                 <br />

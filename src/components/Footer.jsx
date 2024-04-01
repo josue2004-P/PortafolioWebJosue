@@ -5,7 +5,7 @@ import {
 } from "@tabler/icons-react";
 export default function Footer() {
   return (
-    <footer id="footer" className="relative  z-10 w-full   dark:bg-gray-900">
+    <footer id="footer" className="relative  z-10 w-full   ">
       <div className="mx-auto w-full p-4 py-6 lg:py-8">
         <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8 dark:border-gray-700" />
         <div className="sm:flex sm:items-center sm:justify-between">

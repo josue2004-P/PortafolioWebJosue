@@ -20,15 +20,15 @@ export default function Hero() {
     <>
       <div
         id="hero"
-        className=" relative  top-0 z-10 flex  h-screen w-full justify-center p-10 lg:pl-[4.5rem] "
+        className=" relative h-full top-0 z-10 flex  w-full justify-center sm:pl-10 lg:pl-[4.5rem]"
       >
-        <div className="grid w-full lg:grid-cols-1">
-          <div className="flex flex-col justify-center text-texto lg:mb-32 lg:pl-32 xl:pl-6">
+        <div className="lg:grid w-full lg:grid-cols-1 mt-[8rem] lg:mt-20">
+          <div className="flex flex-col justify-center text-texto lg:mb-32 md:pl-6">
             <div>
-              <h1 className="text-6xl font-bold  md:text-8xl xl:text-8xl">
-                Hi,
+              <h1 className="text-4xl font-bold md:text-6xl  xl:text-7xl 2xl:text-8xl">
+                Hola,
                 <span className="block lg:flex ">
-                  I'm
+                  Yo soy,
                   <span className="ml-2 text-titulo">
                     {/* Style will be inherited from the parent element */}
                     <Typewriter
@@ -40,14 +40,16 @@ export default function Hero() {
                     />
                   </span>
                 </span>
-                <span>web developer.</span>
+                <span>desarrollador web</span>
+                <br />
+                <span>full stack</span>
               </h1>
             </div>
             <div className="mb-5 mt-2 lg:mb-10 lg:mt-5">
               <p className="lg:text-md text-sm   font-medium">
                 Frontend <span className="mx-2"></span> /
                 <span className="mx-2">Backend</span>
-                <span className="mx-2">/</span> Web Developer
+                <span className="mx-2">/</span> Full Stack Developer
               </p>
             </div>
             <div>
@@ -56,7 +58,7 @@ export default function Hero() {
                 className="group relative mb-2 me-2 inline-flex items-center justify-center overflow-hidden rounded-xl bg-gradient-to-br from-[#6793c9] to-[#325c97]  p-0.5 text-sm font-medium text-gray-100 hover:text-white focus:outline-none focus:ring-4 focus:ring-blue-300 group-hover:from-purple-600 group-hover:to-blue-500 "
               >
                 <span className="relative rounded-lg bg-[#243856] px-5 py-2.5 transition-all duration-75 ease-in  group-hover:bg-opacity-0">
-                  Contact Me
+                  Contactame
                 </span>
               </AnchorLink>
             </div>
@@ -64,7 +66,7 @@ export default function Hero() {
         </div>
 
         <div
-          className="absolute bottom-10 flex w-[20rem] justify-center  rounded-md px-6 py-6 lg:right-[6rem]"
+          className="absolute bottom-6   flex w-[20rem] justify-center  rounded-md px-6 py-6 md:right-[2rem] lg:right-[6rem]"
           id="hero1"
         >
           <div className="grid grid-cols-1 gap-4">

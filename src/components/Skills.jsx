@@ -34,7 +34,7 @@ export default function Skills() {
     >
       <div className="mx-auto max-w-screen-xl px-4 py-8 lg:py-16">
         <h2 className=" text-center text-4xl font-extrabold leading-tight tracking-tight md:text-5xl dark:text-white">
-          <span className="text-titulo ">Skills</span>
+          <span className="text-titulo ">Habilidades</span>
           <div className="flex w-full justify-center">
             <p className="mt-5 text-lg font-normal text-texto lg:w-[76%] lg:text-xl dark:text-gray-400">
               Mi experiencia se extiende al diseño y desarrollo de interfaces

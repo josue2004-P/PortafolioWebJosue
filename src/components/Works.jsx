@@ -1,6 +1,21 @@
 import Card from "./Card";
 
 export default function Works() {
+  const url = [
+    {
+      id: 1,
+      url: "",
+    },
+    {
+      id: 2,
+      url: "",
+    },
+    {
+      id: 3,
+      url: "",
+    },
+  ];
+
   return (
     <div
       id="works"
@@ -8,7 +23,7 @@ export default function Works() {
     >
       <div className="w-11/12 rounded-3xl pb-10" id="work">
         <h2 className="mb-8 mt-10 text-center text-4xl font-extrabold leading-tight tracking-tight md:text-5xl">
-          <span className="text-titulo ">Works</span>
+          <span className="text-titulo ">Trabajos</span>
         </h2>
 
         <div className=" mt-20 flex w-full items-center justify-center">
