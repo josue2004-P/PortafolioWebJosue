@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Navbar() {
 
-  const [isNavbar, setIsNavbar] = useState(false);
+  const [isNavbar, setIsNavbar] = useState(true);
 
   const openNavbar = () => {
    setIsNavbar(isNavbar => !isNavbar);
