@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Hero() {
   const [isCopied, setIsCopied] = useState(false);
-  const text = "josuepe03@hotmail.com";
+  const text = "josueperezeulogio03@gmail.com";
 
   const handleCopy = async () => {
     try {
@@ -42,7 +42,7 @@ export default function Hero() {
                 </span>
                 <span>desarrollador web</span>
                 <br />
-                <span>full stack</span>
+                <span className="text-titulo">Full Stack</span>
               </h1>
             </div>
             <div className="mb-5 mt-2 lg:mb-10 lg:mt-5">
@@ -66,14 +66,14 @@ export default function Hero() {
         </div>
 
         <div
-          className="absolute bottom-6   flex w-[20rem] justify-center  rounded-md px-6 py-6 md:right-[2rem] lg:right-[6rem]"
+          className="absolute bottom-6   flex lg:w-[23rem] justify-center  rounded-md px-6 py-6 md:right-[2rem] lg:right-[6rem]"
           id="hero1"
         >
           <div className="grid grid-cols-1 gap-4">
             <div className=" flex w-full  items-center">
               <div className="group relative inline-flex w-full items-center justify-center overflow-hidden  rounded-l-xl bg-gradient-to-br from-[#6793c9] to-[#325c97]  p-0.5 text-sm font-medium text-gray-100  ">
-                <span className="relative w-full rounded-l-lg bg-[#243856] px-5 py-2.5 transition-all duration-75 ease-in  ">
-                  josuepe03@hotmail.com
+                <span className="relative w-full rounded-l-lg bg-[#243856] px-4  py-2.5 transition-all duration-75 ease-in  ">
+                  josueperezeulogio03@gmail.com
                 </span>
               </div>
               <div>

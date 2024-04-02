@@ -1,9 +1,4 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import { Autoplay } from "swiper/modules";
-import "../css/home.css";
+
 
 import {
   IconBrandCSharp,
@@ -17,13 +12,12 @@ import {
   IconBrandCss3,
   IconBrandJavascript,
   IconBrandTailwind,
-  IconBrandBootstrap,
   IconBrandReact,
   IconBrandNodejs,
-  IconBrandNextjs,
   IconBrandLaravel,
   IconTerminal2,
   IconBrandGit,
+  IconBrandMongodb,
 } from "@tabler/icons-react";
 
 export default function Skills() {
@@ -64,9 +58,6 @@ export default function Skills() {
                     <IconBrandTailwind size={58} />
                   </div>
                   <div>
-                    <IconBrandBootstrap size={58} />
-                  </div>
-                  <div>
                     <IconBrandReact size={58} />
                   </div>
                 </div>
@@ -78,9 +69,6 @@ export default function Skills() {
                   <span className=" ">Backend</span>
                 </h2>
                 <div className="grid grid-cols-3  text-texto">
-                  <div>
-                    <IconBrandNextjs size={58} />
-                  </div>
                   <div>
                     <IconBrandNodejs size={58} />
                   </div>
@@ -114,9 +102,6 @@ export default function Skills() {
                   <span className="">Lenguajes</span>
                 </h2>
                 <div className="grid grid-cols-3 text-texto">
-                  <div>
-                    <IconBrandCSharp size={58} />
-                  </div>
                   <div>
                     <IconBrandPhp size={58} />
                   </div>
@@ -156,6 +141,7 @@ export default function Skills() {
                   <div>
                     <IconBrandMysql size={58} />
                   </div>
+                  <IconBrandMongodb stroke={2} size={58} />
                 </div>
               </div>
             </div>

@@ -1,55 +1,42 @@
-import {
-  IconBrandCss3,
-  IconBrandGithubFilled,
-  IconBrandHtml5,
-  IconBrandJavascript,
-  IconBrandReact,
-} from "@tabler/icons-react";
-import { IconPlayerPlayFilled } from "@tabler/icons-react";
 
-export default function Card({ url }) {
+export default function Card({ url, link, titulo, descripcion,tecnologias }) {
   return (
-    <div className="relative flex max-w-xs justify-center md:max-w-xl">
-      <div className="-gap-10 grid grid-cols-1 rounded-2xl md:grid-cols-2 md:bg-[#243856] ">
-        <img
-          src={url}
-          alt=""
-          className="w-full rounded-t-2xl md:h-full md:w-[17rem] md:rounded-s-2xl md:rounded-r-none  lg:w-[25rem] "
-        />
-
-        <div className="rounded-b-2xl  bg-[#243856] px-3 py-3 md:w-[18rem] md:rounded-r-2xl">
-          <div className="text-lg font-bold text-titulo ">
-            <h1>Tecnologias</h1>
-            <div className="mt-2 grid w-full grid-cols-4 text-texto">
-              <IconBrandHtml5 className="ml-2" size={25} />
-              <IconBrandCss3 className="ml-2" size={25} />
-              <IconBrandJavascript className="ml-2" size={25} />
-              <IconBrandReact className="ml-2" size={25} />
-            </div>
-          </div>
-          <div className=" mt-4 px-2 font-bold text-titulo">
-            <h1 className="mb-2 text-lg">Descripcion</h1>
-            <p className="text-sm font-medium text-texto">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime,
-              error?
-            </p>
-          </div>
+    <div className="max-w-sm overflow-hidden rounded bg-[#243856] shadow-lg">
+      <img className="w-full" src={url} alt="Sunset in the mountains" />
+      <div className="px-6 py-4">
+        <div className="mb-2 text-xl font-bold">
+          <h1 className="text-2xl text-gray-400">{titulo}</h1>
         </div>
+        <p className="text-base text-gray-200">{descripcion}</p>
       </div>
 
-      <div className="absolute right-5 -top-4 flex  text-sm font-medium text-gray-300">
-        <div className="mr-2  flex items-center">
-          <button className="flex rounded-full bg-[#4376b4] px-2 py-2 mr-2">
-            <p className="">
-              <IconPlayerPlayFilled className="" size={20} />
-            </p>
-          </button>
-          <button className="flex rounded-full bg-[#4376b4] px-2 py-2">
-            <p className="">
-              <IconBrandGithubFilled className="" size={20} />
-            </p>
-          </button>
-        </div>
+      <div className="px-6 pb-2 pt-4">
+
+        {tecnologias}
+
+      </div>
+      <div className="px-6 pb-4">
+        <a
+          href={link}
+          className="inline-flex items-center rounded-lg bg-blue-700 px-3 py-2 text-center text-sm font-medium text-white hover:bg-blue-800 focus:outline-none focus:ring-4 focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+        >
+          Ver demo
+          <svg
+            className="ms-2 h-3.5 w-3.5 rtl:rotate-180"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 14 10"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M1 5h12m0 0L9 1m4 4L9 9"
+            />
+          </svg>
+        </a>
       </div>
     </div>
   );

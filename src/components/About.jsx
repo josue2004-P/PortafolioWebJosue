@@ -14,9 +14,9 @@ export default function About() {
             </h1>
             <div>
               <p className="mt-14 font-medium md:text-xl ">
-                Soy Josue Perez Eulogio, un desarrollador web enfocado en el
-                Front End con un año de experiencia en tecnologías como React,
-                HTML, CSS y JavaScript.
+                Soy Josue Perez Eulogio, desarrollador full stack enfocado en el
+                Front End con mas de un año de experiencia en tecnologías como React,
+                Express y JavaScript.
                 <br />
                 <br />
                 Me he dedicado a la elaboración de proyectos con diseños
@@ -29,15 +29,6 @@ export default function About() {
                 adaptarme fácilmente y aprender de manera eficaz.
               </p>
             </div>
-          </div>
-          <div>
-            <h1 className="mt-10 text-2xl font-bold">
-              <span className="text-titulo">Formacion:</span>
-              <p className=" flex items-center text-xl">
-                Lic. Sistemas Computacionales (Proceso)
-                <i className="fa-solid fa-laptop-code ml-2 hidden sm:flex"></i>
-              </p>
-            </h1>
           </div>
         </div>
 
