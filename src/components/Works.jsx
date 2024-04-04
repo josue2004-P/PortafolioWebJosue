@@ -7,20 +7,6 @@ import {
 } from "@tabler/icons-react";
 
 export default function Works() {
-  const url = [
-    {
-      id: 1,
-      url: "",
-    },
-    {
-      id: 2,
-      url: "",
-    },
-    {
-      id: 3,
-      url: "",
-    },
-  ];
 
   return (
     <div
@@ -107,6 +93,32 @@ export default function Works() {
               />
             </div>
 
+            <div className="flex w-full  justify-end lg:-ml-16 2xl:m-0">
+              <Card
+                url={"../work3.png"}
+                link={
+                  "https://marvelous-wisp-9be2ca.netlify.app/"
+                }
+                titulo={"Landing Page D&A Software"}
+                descripcion={
+                  ""
+                }
+                tecnologias={
+                  <>
+                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandHtml5 />
+                    </span>
+
+                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandCss3 />
+                    </span>
+                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandJavascript />
+                    </span>
+                  </>
+                }
+              />
+            </div>
           </div>
         </div>
       </div>
