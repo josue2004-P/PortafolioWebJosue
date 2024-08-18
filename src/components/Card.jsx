@@ -1,13 +1,13 @@
 
 export default function Card({ url, link, titulo, descripcion,tecnologias }) {
   return (
-    <div className="max-w-sm overflow-hidden rounded bg-[#243856] shadow-lg">
+    <div className="max-w-xs overflow-hidden rounded bg-[#243856] shadow-lg">
       <img className="w-full" src={url} alt="Sunset in the mountains" />
       <div className="px-6 py-4">
         <div className="mb-2 text-xl font-bold">
           <h1 className="text-2xl text-gray-400">{titulo}</h1>
         </div>
-        <p className="text-base text-gray-200">{descripcion}</p>
+        <p className="text-[14px] text-gray-200">{descripcion}</p>
       </div>
 
       <div className="px-6 pb-2 pt-4">

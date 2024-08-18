@@ -30,13 +30,13 @@ export default function Contact() {
                   <div className="flex justify-center">
                     <IconPhone className="mb-4 text-titulo " size={35} />
                   </div>
-                  <h6 className="font-medium text-texto">294 - 128 - 1586</h6>
+                  <h6 className="font-medium text-texto">284 - 102 - 2581</h6>
                 </div>
                 <div className="mx-auto mb-12 text-center lg:mb-0">
                   <div className="flex justify-center">
                     <IconBrandWhatsapp className="mb-4 text-titulo " size={35} />
                   </div>
-                  <h6 className="font-medium text-texto">294 - 128 - 1586</h6>
+                  <h6 className="font-medium text-texto">284 - 102 - 2581</h6>
                 </div>
                 <div className="mx-auto mb-6 text-center md:mb-0">
                   <div className="flex justify-center">

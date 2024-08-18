@@ -12,27 +12,38 @@ export default function About() {
             <h1 className="text-4xl font-bold md:text-5xl">
               <span className="text-titulo">{titulo}</span>
             </h1>
-            <div>
-              <p className="mt-14 font-medium md:text-xl ">
-                Soy Josue Perez Eulogio, desarrollador full stack enfocado en el
-                Front End con mas de un año de experiencia en tecnologías como React,
-                Express y JavaScript.
-                <br />
-                <br />
-                Me he dedicado a la elaboración de proyectos con diseños
-                responsivos y de fácil navegación para el usuario, siempre
-                enfocado en proporcionar soluciones efectivas.
-                <br />
-                <br />
-                Me mantengo una constante capacitación para mantenerme
-                actualizado en las nuevas tecnologías, lo que me permite
-                adaptarme fácilmente y aprender de manera eficaz.
+            <div className="font-medium md:text-xl">
+              <p className="mt-14  ">
+                Soy Josue Perez Eulogio, desarrollador FullStack y estudiante de
+                la Licenciatura en Sistemas Computacionales con mas de 
+                <span className="text-[#63e] mx-1">
+
+                dos años
+                de experiencia 
+                </span>
+                en el desarrollo web, con JavaScript u otros
+                lenguajes y framewords.
+              </p>
+              <p className="my-4">Siempre enfocado en proporcionar 
+              <span className="ml-1 text-[#63e]">
+
+              soluciones efectivas.
+              </span>
+              </p>
+              <p>
+                Me considero una persona comprometida al aprendizaje continuo y
+                la mejora constante, siempre en busca de oportunidades para
+                aplicar mis conocimientos y hablidades de 
+                <span className="text-[#63e] ml-1">
+
+                manero inovadora.
+                </span>
               </p>
             </div>
           </div>
         </div>
 
-        <div className="pl-20 hidden justify-center  lg:ml-10 lg:flex lg:items-center">
+        <div className="hidden justify-center pl-20  lg:ml-10 lg:flex lg:items-center">
           <div className="max-[450px]:flex max-[450px]:justify-end lg:w-[560px]">
             <div className="max-[450px]:mt-10 max-[450px]:justify-self-end max-[450px]:pr-10 lg:col-span-6 lg:mt-0 lg:flex">
               <div className="home__img relative">

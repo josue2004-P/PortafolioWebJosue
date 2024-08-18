@@ -1,6 +1,4 @@
 import { useCallback } from "react";
-import Particles from "react-particles";
-import { loadSlim } from "tsparticles-slim";
 import "../css/home.css";
 
 import Navbar from "../components/Navbar";
