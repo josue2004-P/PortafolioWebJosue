@@ -36,7 +36,7 @@ export default function About() {
                 aplicar mis conocimientos y hablidades de 
                 <span className="text-[#63e] ml-1">
 
-                manero inovadora.
+                manera innovadora.
                 </span>
               </p>
             </div>

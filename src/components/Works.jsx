@@ -86,7 +86,7 @@ export default function Works() {
               />
             </div>
 
-            <div className="flex w-full  justify-end lg:-ml-16 2xl:m-0">
+            {/* <div className="flex w-full  justify-end lg:-ml-16 2xl:m-0">
               <Card
                 url={"../work3.png"}
                 link={
@@ -117,7 +117,7 @@ export default function Works() {
                   </>
                 }
               />
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
