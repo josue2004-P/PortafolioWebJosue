@@ -12,7 +12,7 @@ export default function Footer() {
           <span className="text-sm font-medium text-texto sm:text-center dark:text-gray-400">
             © Josue Perez 2023
           </span>
-          <div className="mt-4 flex space-x-5 sm:mt-0 sm:justify-center">
+          {/* <div className="mt-4 flex space-x-5 sm:mt-0 sm:justify-center">
             <a
               href="#"
               className="text-gray-500 hover:text-gray-900 dark:hover:text-white"
@@ -34,7 +34,7 @@ export default function Footer() {
               <IconBrandGithub />
               <span className="sr-only">GitHub account</span>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

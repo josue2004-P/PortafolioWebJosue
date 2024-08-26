@@ -42,7 +42,7 @@ export default function Contact() {
                   <div className="flex justify-center">
                     <IconBrandLinkedin className="mb-4 text-titulo" size={35} />
                   </div>
-                  <h6 className="font-medium text-texto">Josue Perez</h6>
+                  <a href="https://www.linkedin.com/in/josuepedev" className="font-medium text-texto  hover:text-gray-400">Josue Perez</a>
                 </div>
                 <div className="mx-auto text-center">
                   <div className="flex justify-center">
@@ -53,7 +53,7 @@ export default function Contact() {
                   </div>
                   <a
                     href="https://github.com/josue2004-P"
-                    className="font-medium text-texto"
+                    className="font-medium text-texto hover:text-gray-400"
                   >
                     josue2004-P
                   </a>
