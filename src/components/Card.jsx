@@ -10,7 +10,7 @@ export default function Card({ url, link, titulo, descripcion,tecnologias }) {
         <p className="text-[14px] text-gray-200">{descripcion}</p>
       </div>
 
-      <div className="px-6 pb-2 pt-4">
+      <div className="grid grid-cols-5 px-6  mb-2 w-full">
 
         {tecnologias}
 

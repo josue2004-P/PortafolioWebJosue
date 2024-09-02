@@ -34,17 +34,17 @@ export default function Works() {
                 }
                 tecnologias={
                   <>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit  mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandHtml5 />
                     </span>
 
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandCss3 />
                     </span>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandJavascript />
                     </span>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandLaravel />
                     </span>
                   </>
@@ -64,21 +64,21 @@ export default function Works() {
                 }
                 tecnologias={
                   <>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandHtml5 />
                     </span>
 
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandCss3 />
                     </span>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandJavascript />
                     </span>
 
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandNodejs />
                     </span>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandMongodb />
                     </span>
                   </>
@@ -86,38 +86,38 @@ export default function Works() {
               />
             </div>
 
-            {/* <div className="flex w-full  justify-end lg:-ml-16 2xl:m-0">
+            <div className="flex w-full  justify-end lg:-ml-16 2xl:m-0">
               <Card
-                url={"../work3.png"}
+                url={"../reparacel.png"}
                 link={
-                  "https://marvelous-wisp-9be2ca.netlify.app/"
+                  "https://reparacel.netlify.app/"
                 }
-                titulo={"Sistema de restaurante JossSnak"}
+                titulo={"Sistema incidencias equipos moviles"}
                 descripcion={
-                  "Sistema de restaurante enfocado en la creacion de pedidos hasta su carrito de compras."
+                  "Sistema gestión de equipos moviles, clientes y reparaciones para una deteccion de problemas mas rapido."
                 }
                 tecnologias={
                   <>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandHtml5 />
                     </span>
 
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandCss3 />
                     </span>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandJavascript />
                     </span>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandNodejs />
                     </span>
-                    <span className="mb-2 mr-2 inline-block rounded-full bg-gray-200 px-3 py-1 text-sm font-semibold text-gray-700">
-                      <IconBrandMysql />
+                    <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandReact />
                     </span>
                   </>
                 }
               />
-            </div> */}
+            </div>
           </div>
         </div>
       </div>
