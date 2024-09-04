@@ -12,7 +12,6 @@ import {
 } from "@tabler/icons-react";
 
 export default function Works() {
-
   return (
     <div
       id="works"
@@ -35,20 +34,20 @@ export default function Works() {
                 }
                 tecnologias={
                   <>
-                    <span className="w-fit  mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2  mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandHtml5 />
                     </span>
 
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandCss3 />
                     </span>
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandJavascript />
                     </span>
-                    <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 inline-block  w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandLaravel />
                     </span>
-                    <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 inline-block  w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandMysql />
                     </span>
                   </>
@@ -93,36 +92,34 @@ export default function Works() {
             <div className="flex w-full  justify-end lg:-ml-16 2xl:m-0">
               <Card
                 url={"../reparacel.png"}
-                link={
-                  "https://reparacel.netlify.app/"
-                }
+                link={"https://reparacel.netlify.app/"}
                 titulo={"Demo Reparacel"}
                 descripcion={
                   "Demo de sistema diseñado para gestión de equipos móviles , clientes y reparaciones para tener un control y un análisis rápido de los dispositivos para sus respectiva reparación , se utilizo HTML, CSS, JS, REACT, TAILWIND Y REDUX."
                 }
                 tecnologias={
                   <>
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandHtml5 />
                     </span>
 
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandCss3 />
                     </span>
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandJavascript />
                     </span>
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandNodejs />
                     </span>
-                    <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 inline-block  w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandReact />
                     </span>
                   </>
                 }
               />
             </div>
-            
+
             <div className="flex w-full  justify-end  lg:ml-[5rem] 2xl:m-0">
               <Card
                 url={"../landingpagered.png"}
@@ -133,17 +130,17 @@ export default function Works() {
                 }
                 tecnologias={
                   <>
-                    <span className="w-fit  mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2  mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandHtml5 />
                     </span>
 
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandCss3 />
                     </span>
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandJavascript />
                     </span>
-                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                    <span className="mb-2 mr-2 inline-block w-fit rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandTailwind />
                     </span>
                   </>
