@@ -8,6 +8,7 @@ import {
   IconBrandMysql,
   IconBrandNodejs,
   IconBrandReact,
+  IconBrandTailwind,
 } from "@tabler/icons-react";
 
 export default function Works() {
@@ -30,7 +31,7 @@ export default function Works() {
                 link={"https://laravel-railway-production-3741.up.railway.app/"}
                 titulo={"D&A Software R"}
                 descripcion={
-                  "Sitio web sobre empresa dedicada al desarollo de aplicaciones moviles y webs."
+                  "Sitio web oficial D&A Software R , creado con HTML, CSS, JS, con PHP y Laravel de base con conexión MySQL para el registro de contactos"
                 }
                 tecnologias={
                   <>
@@ -47,12 +48,15 @@ export default function Works() {
                     <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandLaravel />
                     </span>
+                    <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandMysql />
+                    </span>
                   </>
                 }
               />
             </div>
 
-            <div className="flex w-full  justify-end lg:ml-20 2xl:m-0">
+            {/* <div className="flex w-full  justify-end lg:ml-20 2xl:m-0">
               <Card
                 url={"../work2.png"}
                 link={
@@ -84,7 +88,7 @@ export default function Works() {
                   </>
                 }
               />
-            </div>
+            </div> */}
 
             <div className="flex w-full  justify-end lg:-ml-16 2xl:m-0">
               <Card
@@ -92,9 +96,9 @@ export default function Works() {
                 link={
                   "https://reparacel.netlify.app/"
                 }
-                titulo={"Sistema incidencias equipos moviles"}
+                titulo={"Demo Reparacel"}
                 descripcion={
-                  "Sistema gestión de equipos moviles, clientes y reparaciones para una deteccion de problemas mas rapido."
+                  "Demo de sistema diseñado para gestión de equipos móviles , clientes y reparaciones para tener un control y un análisis rápido de los dispositivos para sus respectiva reparación , se utilizo HTML, CSS, JS, REACT, TAILWIND Y REDUX."
                 }
                 tecnologias={
                   <>
@@ -113,6 +117,34 @@ export default function Works() {
                     </span>
                     <span className="w-fit mb-2  inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
                       <IconBrandReact />
+                    </span>
+                  </>
+                }
+              />
+            </div>
+            
+            <div className="flex w-full  justify-end  lg:ml-[5rem] 2xl:m-0">
+              <Card
+                url={"../landingpagered.png"}
+                link={"https://landingpagered.netlify.app/"}
+                titulo={"Landing Page Red"}
+                descripcion={
+                  "Página web realizada de un diseño proporcionado utilizando HTML, CSS, Tailwind como frameword de CSS Y JS."
+                }
+                tecnologias={
+                  <>
+                    <span className="w-fit  mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandHtml5 />
+                    </span>
+
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandCss3 />
+                    </span>
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandJavascript />
+                    </span>
+                    <span className="w-fit mb-2 mr-2 inline-block rounded-full bg-gray-200 px-2 py-1 text-sm font-semibold text-gray-700">
+                      <IconBrandTailwind />
                     </span>
                   </>
                 }
