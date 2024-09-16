@@ -4,7 +4,6 @@ import {
   IconBrandHtml5,
   IconBrandJavascript,
   IconBrandLaravel,
-  IconBrandMongodb,
   IconBrandMysql,
   IconBrandNodejs,
   IconBrandReact,

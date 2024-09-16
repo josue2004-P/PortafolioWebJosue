@@ -14,7 +14,7 @@ export default function About() {
             </h1>
             <div className="font-medium md:text-xl">
               <p className="mt-14  ">
-                Soy Josue Perez Eulogio, desarrollador FullStack y estudiante de
+                Soy Josue Perez Eulogio, desarrollador Frontend y estudiante de
                 la Licenciatura en Sistemas Computacionales con mas de 
                 <span className="text-[#63e] mx-1">
 

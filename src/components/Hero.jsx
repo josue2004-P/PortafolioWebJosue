@@ -42,14 +42,14 @@ export default function Hero() {
                 </span>
                 <span>desarrollador web</span>
                 <br />
-                <span className="text-titulo">Full Stack</span>
+                <span className="text-titulo">Frontend</span>
               </h1>
             </div>
             <div className="mb-5 mt-2 lg:mb-10 lg:mt-5">
               <p className="lg:text-md text-sm   font-medium">
                 Frontend <span className="mx-2"></span> /
-                <span className="mx-2">Backend</span>
-                <span className="mx-2">/</span> Full Stack Developer
+                <span className="mx-2">Java Scritp</span>
+                <span className="mx-2">/</span> React 
               </p>
             </div>
             <div>
@@ -73,7 +73,7 @@ export default function Hero() {
             <div className=" flex w-full  items-center">
               <div className="group relative inline-flex w-full items-center justify-center overflow-hidden  rounded-l-xl bg-gradient-to-br from-[#6793c9] to-[#325c97]  p-0.5 text-sm font-medium text-gray-100  ">
                 <span className="relative w-full rounded-l-lg bg-[#243856] px-4  py-2.5 transition-all duration-75 ease-in  ">
-                  josueperezeulogio03@gmail.com
+                  josueperezeulogio3@gmail.com
                 </span>
               </div>
               <div>
