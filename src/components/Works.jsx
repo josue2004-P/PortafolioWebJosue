@@ -26,7 +26,7 @@ export default function Works() {
             <div className="flex w-full  justify-end  lg:-ml-[10rem] 2xl:m-0">
               <Card
                 url={"../work1.png"}
-                link={"https://laravel-railway-production-3741.up.railway.app/"}
+                link={"https://dasoftwarer.netlify.app/"}
                 titulo={"D&A Software R"}
                 descripcion={
                   "Sitio web oficial D&A Software R , creado con HTML, CSS, JS, con PHP y Laravel de base con conexión MySQL para el registro de contactos"
