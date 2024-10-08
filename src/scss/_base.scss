@@ -1,0 +1,52 @@
+/*
+base styles
+*/
+
+/***************************
+***For widths of document
+***************************/
+// .w-95{
+// 	width: $width-95;
+// }
+// .w-100{
+// 	width: $width-100;
+// }
+// /*for max widths*/
+// .mxw-narrow{
+// 	max-width: $max-width;
+// }
+// .mxw-full{
+// 	max-width: $max-width-full;	
+// }
+
+html,
+body,
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  font: inherit;
+}
+
+button {
+  all: unset;
+  display: inline-block;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+}
+
+body {
+  font-family: "Onest", sans-serif;
+  color: white;
+}
+li {
+  list-style: none;
+}

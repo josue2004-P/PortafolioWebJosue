@@ -1,0 +1,80 @@
+@use '../mixins' as *;
+
+
+/*
+Main files where load all the rest files
+*/
+
+/* LAYOUTS */
+.l-container {
+  width: 100%; // Valor por defecto
+  padding: 0 1rem;
+  @include tablet {
+    width: 75%;
+    margin: auto;
+    padding-top: 2rem;
+    padding: 0 0rem;
+  }
+
+  @include desktop {
+    width: 80%; // Para pantallas mayores a 1024px
+  }
+
+  @include desktopXL {
+    width: 70%;
+  }
+
+  @include desktop2XL {
+    width: 55%;
+  }
+}
+
+.l-gradient {
+  padding-top: 5rem;
+  background: rgb(91, 57, 229);
+  background: linear-gradient(
+    142deg,
+    rgba(91, 57, 229, 1) 0%,
+    rgba(3, 3, 13, 1) 22%,
+    rgba(3, 3, 13, 1) 78%,
+    rgba(91, 57, 229, 1) 100%
+  );
+  @include tablet{
+    padding-top: 5rem;
+  }
+  @include desktop2XL{
+    padding-top: 6rem;
+  }
+}
+
+.l-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr); // Por defecto una columna
+  grid-template-rows: auto;
+  gap: 10px;
+
+  @include desktop {
+    grid-template-columns: repeat(2, 1fr); // Dos columnas para desktop
+  }
+}
+
+.l-header {
+  width: 100%; // Valor por defecto
+  position: relative;
+  margin: auto;
+  background-color: red;
+  @include desktop {
+    width: 80%;
+  }
+
+  @include desktopXL {
+    width: 70%;
+    background-color: red;
+  }
+
+  @include desktop2XL  {
+  background-color: red;
+
+    width: 55%;
+  }
+}
